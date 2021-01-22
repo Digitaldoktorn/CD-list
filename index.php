@@ -27,6 +27,7 @@
 ?>
 
 <?php include('templates/header.php'); ?>
+<div class="container p-4">
     <table class="table table-striped mt-3">
         <thead>
             <tr>
@@ -47,4 +48,7 @@
             <?php endforeach; ?>
         </tbody>
     </table>   
+
+</div>
+
 <?php include('templates/footer.php');

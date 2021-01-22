@@ -85,7 +85,7 @@
 ?>
 
 <?php include('templates/header.php'); ?>
-<div class="container mt-3">
+<div class="container mt-3 p-4">
   <h3>Add CD</h3> 
   <form action="add.php" method="POST">
     <div class="mb-3">
