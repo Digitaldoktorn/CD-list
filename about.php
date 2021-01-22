@@ -5,5 +5,4 @@
         <p>Add, delete and list your CD albums.</p>
         <p>Link to <a href="https://github.com/Digitaldoktorn/CD-list" target="_blanc">Github repo</a></p>
     </div>
-    <hr>
 <?php include('templates/footer.php');

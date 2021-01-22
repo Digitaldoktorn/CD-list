@@ -27,7 +27,7 @@
 ?>
 
 <?php include('templates/header.php'); ?>
-    <table class="table table-success table-striped">
+    <table class="table table-striped mt-3">
         <thead>
             <tr>
                 <th>Artist</th>
@@ -47,5 +47,4 @@
             <?php endforeach; ?>
         </tbody>
     </table>   
-    <hr>
 <?php include('templates/footer.php');

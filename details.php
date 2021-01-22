@@ -73,6 +73,5 @@
         <?php else: ?>
             <h5>No such album exist in this database.</h5>
         <?php endif; ?>
-        <hr>
     <?php include('templates/footer.php'); ?>
 </html>

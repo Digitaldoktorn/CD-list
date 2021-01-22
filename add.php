@@ -113,5 +113,4 @@
     <input type="submit" class="btn btn-sm btn-primary" name="submit" value="Submit">
   </form>
 </div>
-<hr>
 <?php include('templates/footer.php'); ?>
