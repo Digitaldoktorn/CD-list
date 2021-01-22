@@ -42,9 +42,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <?php include('templates/header.php'); ?>
+    <div class="container mt-3 p-4">
     <h3>Details</h3>
         <?php if($album): ?>
-            <table class="table table-success table-striped">
+            <table class="table table table-striped">
                 <tr>
                     <th>ID</th>
                     <td><?php echo htmlspecialchars($album['id']); ?></td>
@@ -73,5 +74,6 @@
         <?php else: ?>
             <h5>No such album exist in this database.</h5>
         <?php endif; ?>
+    </div>
     <?php include('templates/footer.php'); ?>
 </html>

@@ -46,7 +46,7 @@
     } else {
       $songs = $_POST['songs'];
       if(!preg_match('/^([a-zA-Z\s]+)(,\s*[a-zA-Z\s]*)*$/', $songs)){
-        $errors['songs'] = 'The songs must be a comma separated list';
+        $errors['songs'] = 'The songs must be a comma separated list - alpha numeric characters a-z, A-Z';
       }
     }
     if(empty($_POST['price'])) {
